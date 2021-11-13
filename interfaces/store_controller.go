@@ -106,7 +106,7 @@ func (sc *StoreController) NewRecord(w http.ResponseWriter, r *http.Request) {
 }
 func (sc *StoreController) SetValue(w http.ResponseWriter, r *http.Request) {
 
-	if r.Method == "POST" {
+	if r.Method == "PUT" {
 
 		sc.Logger.LogHttpServer("%s %s %s\n", r.RemoteAddr, r.Method, r.URL)
 
