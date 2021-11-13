@@ -5,10 +5,11 @@
 In memory key value store application using go
 
 ![Website](https://img.shields.io/website?url=http%3A%2F%2F206.81.16.177%3A8080%2Fget%3Fkey) 
-
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/fyalcincosar/simple-key-value-store-go)
+[![GoReportCard example](https://goreportcard.com/badge/github.com/fyalcincosar/simple-key-value-store-go)](https://goreportcard.com/report/github.com/fyalcincosar/simple-key-value-store-go)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/yalcinc/simple-kvs-go/latest)
 
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/yalcinc/simple-kvs-go/latest)
+
 ## Get Started
 
 `cp config .env` 
