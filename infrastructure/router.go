@@ -9,7 +9,7 @@ import (
 
 func Dispatcher(logger usecases.Logger, handler interfaces.StoreHandler) {
 	storeController := interfaces.NewStoreController(handler, logger)
-	storeController.Save()
+	go storeController.Save()
 	mux := http.ServeMux{}
 	mux.HandleFunc("/add", storeController.NewRecord)
 	mux.HandleFunc("/get", storeController.GetValue)
