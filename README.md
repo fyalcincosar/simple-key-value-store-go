@@ -20,11 +20,13 @@ In memory key value store application using go
 in-memory-key-value-store
 ├── domain
 │   ├── record.go
+│   ├── store_test.go
 │   └── store.go
 ├── infrastructure
 │   ├── env.go
 │   ├── logger.go
 │   ├── router.go
+│   ├── handler_test.go
 │   └── handler.go
 ├── interfaces
 │   ├── handler.go
