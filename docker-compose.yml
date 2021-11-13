@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    container_name: key-value-store-case
+    image: kvs-app-dev
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - 8080:8080
